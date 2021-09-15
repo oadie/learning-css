@@ -1,0 +1,79 @@
+font{
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin: 10%;
+    position: fixed;
+    animation: ja 5s infinite;
+    animation-direction: alternate;
+}
+  
+@keyframes ja {
+    0% {left: 8%;}
+    50%{color: white;}
+    100% {left: 30%;}
+}
+
+.sq{
+    text-size-adjust: 5%;
+    width: 10%;
+    animation-direction: alternate;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+  
+.sq1back {
+    text-align: center;
+    margin-left: 46%;
+    margin-top: -3%;
+    animation: back 20s infinite;
+}@keyframes back {
+    0%   {background: transparent; left: 0px; top: 0px;}
+    25%  {background: transparent; left: 150px; top: 0px;}
+    50%  {background: green; left: 150px; top: 400px; height: 300px;}
+    75%  {background: red; left: 0px; top: 400px;}
+    100% {background: yellow; left: 0px; top: 0px;}
+} /* la caja pasa por detras de h1 (es importante el orden en el html)*/
+
+.sq1front {
+    text-align: center;
+    margin-left: 46%;
+    margin-top: -3%;
+    animation: front 20s infinite;
+}@keyframes front {
+    0%   {background: yellow; left: 0px; top: 0px;}
+    25%  {background: blue; left: 150px; top: 0px;}
+    50%  {background: green; left: 150px; top: 400px; height: 300px;}
+    75%  {background: transparent; left: 0px; top: 400px;}
+    100% {background: transparent; left: 0px; top: 0px;}
+} /* la caja pasa delante de h1 (es importante el orden en el html)*/
+
+.sq2 {
+    margin-left: 53%;
+    margin-top: 12%;
+    animation: square2 20s infinite;
+}@keyframes square2 {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 300px; top: 0px;}
+    50%  {background: blue; left: 300px; top: 200px; width: 300px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+}
+
+.black{
+    animation: toblack 5s infinite;
+}@keyframes toblack{
+    0% {color:transparent}
+    50% {color:black}
+    100% {color:transparent}
+}
+
+#white{
+    animation: towhite 5s infinite;
+}@keyframes towhite{
+    0% {color:transparent}
+    50% {color:white}
+    100% {color:transparent}
+}

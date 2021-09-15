@@ -1,0 +1,24 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1591543834081-710b51fbc244?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1504&q=80");
+} /* entre parentesis y comillas */
+
+.title{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    color:cadetblue;
+    background-color: navy;
+    border:3px solid firebrick;
+    margin: 1em;
+}
+
+.subtitle{
+    font-family: 'Merriweather', serif;
+    color:white;
+}
+
+#box{
+    width: 30%;
+    background-color: rebeccapurple;
+    color:yellowgreen;
+    padding: 20px;
+}
