@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+body{
+    font-family: 'Merriweather', serif;
+}
+
+.flexed{
+    margin: 5%;
+    left: 2%;
+    width: 30%;
+    padding: 2%;
+    position: fixed;
+    
+    font-weight: bold;
+}
+
+table{
+    margin: 10%;
+}td{
+    margin: 5%;
+}.image{
+    width: 20%;
+}
+/* Mini sitio web. contará con 3 páginas
+Página principal, galería, contacto.
+En la pagina principal va información general sobre su pagina y por lo menos 1 imagen y una tabla.
+En la página de galería debe ir imágenes relacionadas con la página con descripciones
+En la página de contacto debe ir un formulario de contacto.
+Va a contar con un menú para desplazarse entre las páginas. */

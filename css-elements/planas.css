@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bitter&family=Inconsolata&family=Rajdhani&family=Titillium+Web&display=swap');
+
+h2{
+    animation: color 5s infinite alternate;
+}
+
+.uno{
+    font-family: 'Architects Daughter', cursive;
+}
+.dos{
+    font-family: 'Bitter', serif;
+    animation-delay: 1s;
+}
+.tres{
+    font-family: 'Inconsolata', monospace;
+    animation-delay: 2s;
+}
+.cuatro{
+    font-family: 'Rajdhani', sans-serif;
+    animation-delay: 3s;
+}
+.cinco{
+    font-family: 'Titillium Web', sans-serif;
+    animation-delay: 4s;
+}
+
+@keyframes color{
+    0% {color:black;}
+    100% {color:transparent;}
+}
