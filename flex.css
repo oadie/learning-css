@@ -1,0 +1,31 @@
+.con{
+    width: 90%;
+    height: 80vh;
+    background-color: thistle;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    place-items: center;
+}
+
+.box{
+    width: 200px;
+    aspect-ratio: 1/1;
+    margin: 5%;
+    display: grid;
+    place-items: center;
+}
+
+.box1{
+    background-color: lawngreen;
+}
+.box2{
+    background-color: orange;
+}
+.box3{
+    background-color: orangered;
+}
+.box4{
+    background-color: rebeccapurple;
+}
